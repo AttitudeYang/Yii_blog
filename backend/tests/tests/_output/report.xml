@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="acceptance" tests="1" assertions="1" failures="1" errors="0" time="0.234014">
+    <testcase name="IndexPage" file="D:\WNMP\nginx-1.10.3\html\here\backend\tests\tests\acceptance\IndexPageCept.php" feature="perform actions and see result" assertions="1" time="0.234014">
+      <failure type="PHPUnit_Framework_ExpectationFailedException">IndexPageCept: Perform actions and see result&#13;
+Failed asserting that  on page /qmcus/backend/web/index.php/
+--&gt;  404 Not Found 404 Not Found nginx/1.10.3 
+--&gt; contains "登录".
+&#13;
+D:\WNMP\nginx-1.10.3\html\here\backend\tests\tests\_support\_generated\AcceptanceTesterActions.php:302
+D:\WNMP\nginx-1.10.3\html\here\backend\tests\tests\acceptance\IndexPageCept.php:5
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
